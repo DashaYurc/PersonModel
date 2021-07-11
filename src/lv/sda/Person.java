@@ -38,8 +38,13 @@ public class Person {
         this.age = age;
     }
 
-    public void walking(){
-        System.out.println("The person is walking near to me!");
+    public void walking(boolean canWalk){
+        if (canWalk){
+            System.out.println("The person is walking near to me!");
+        } else {
+            System.out.println("The person is probably ill or a toddler.");
+        }
+
     }
 
     public void talking(){

@@ -16,7 +16,7 @@ public class Main {
         System.out.println(person1.getHeight());
         person1.running();
         person1.eating();
-        person1.walking();
+        person1.walking(false);
         person1.talking();
 
     }
